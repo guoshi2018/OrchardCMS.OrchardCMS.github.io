@@ -7,11 +7,11 @@ import houston from "../_assets/houston.webp"
 <section
 	class="relative mx-auto flex w-full max-w-screen-xl flex-col items-center justify-end overflow-hidden px-4 pb-0"
 >
-	<AstroLogomark class="block h-20" />
+	<!-- <AstroLogomark class="block h-20" /> -->
 	<div class="my-6 md:my-8">
-		<h2 class="heading-3 max-w-2xl text-center lg:heading-2">Start building with Astro today</h2>
+		<h2 class="heading-3 max-w-2xl text-center lg:heading-2">Start building with Orchard Core today</h2>
 	</div>
-	<a data-get-started href="https://docs.astro.build/" class="button button-white">Get Started</a>
+	<a data-get-started href="https://docs.orchardcore.net/" class="button button-white">Get Started</a>
 	<div data-houston-signal class="relative top-32 h-px w-full"></div>
 	<div class="overflow-hidden">
 		<img
@@ -52,7 +52,7 @@ import houston from "../_assets/houston.webp"
 
 <script>
 	import { getElement } from "~/helpers/dom.js"
-	import { raise } from "~/helpers/errors.js"
+import { raise } from "~/helpers/errors.js"
 
 	const houston = getElement("[data-houston]", HTMLImageElement)
 	const getStartedButton = getElement("[data-get-started]", HTMLAnchorElement)

@@ -9,7 +9,6 @@ import SidebarPanel from "~/components/SidebarPanel.astro"
 import { ThemeCategories, ThemePricing, ThemeTools } from "~/content/config.js"
 import { paginate } from "~/helpers/paginate.js"
 import MainLayout from "~/layouts/MainLayout.astro"
-import SubmitTheme from "./_components/SubmitTheme.astro"
 import ThemeCard from "./_components/ThemeCard.astro"
 
 export const prerender = false
@@ -210,7 +209,7 @@ const recentlyAddedHref = `${Astro.url.pathname}?${recentlyAddedSearch.toString(
 					searchPlaceholder="Search for a theme"
 				/>
 			</SidebarPanel>
-			<SubmitTheme class="hidden lg:block" />
+			<!-- <SubmitTheme class="hidden lg:block" /> -->
 		</Fragment>
 
 		{
@@ -261,6 +260,6 @@ const recentlyAddedHref = `${Astro.url.pathname}?${recentlyAddedSearch.toString(
 			)
 		}
 
-		<SubmitTheme class="lg:hidden" />
+		<!-- <SubmitTheme class="lg:hidden" /> -->
 	</SidebarLayout>
 </MainLayout>

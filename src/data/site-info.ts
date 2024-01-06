@@ -30,16 +30,16 @@ const siteInfo: SiteInfo = {
 	socialLinks: [
 		{
 			platform: "github",
-			href: "https://github.com/withastro/astro",
-			me: "https://github.com/withastro/",
-			text: "Go to Astro's GitHub repo",
+			href: "https://github.com/OrchardCMS/OrchardCore",
+			me: "https://github.com/OrchardCMS/",
+			text: "Go to GitHub repo",
 			icon: "social/github",
 		},
 		{
 			platform: "twitter",
-			href: "https://twitter.com/astrodotbuild",
-			me: "https://twitter.com/astrodotbuild",
-			text: "Follow Astro on Twitter",
+			href: "https://twitter.com/orchardcms",
+			me: "https://twitter.com/orchardcms",
+			text: "Follow us on Twitter",
 			icon: "social/twitter",
 		},
 	],
