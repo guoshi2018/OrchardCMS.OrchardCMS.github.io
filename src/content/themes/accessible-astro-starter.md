@@ -28,7 +28,6 @@ featured: 12
 tools:
   - "tailwind"
   - "sass"
-  - "mdx"
 ---
 
 <p>

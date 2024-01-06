@@ -28,17 +28,10 @@ export const ThemeCategories = new Map([
 ] as const)
 
 export const ThemeTools = new Map([
-	["alpinejs", "Alpine.js"],
-	["lit", "Lit"],
-	["mdx", "MDX"],
-	["postcss", "PostCSS"],
-	["preact", "Preact"],
+	["bootstrap", "Bootstrap"],
 	["react", "React"],
 	["sass", "SASS"],
-	["solidjs", "SolidJS"],
-	["svelte", "Svelte"],
 	["tailwind", "Tailwind"],
-	["unocss", "Unocss"],
 	["typescript", "TypeScript"],
 	["vue", "Vue"],
 ] as const)
