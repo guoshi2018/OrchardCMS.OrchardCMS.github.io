@@ -2,7 +2,6 @@ import mdx from "@astrojs/mdx"
 import sitemap from "@astrojs/sitemap"
 import solidJs from "@astrojs/solid-js"
 import tailwind from "@astrojs/tailwind"
-import vercel from "@astrojs/vercel/serverless"
 import { defineConfig } from "astro/config"
 
 /* https://vercel.com/docs/projects/environment-variables/system-environment-variables#system-environment-variables */
@@ -35,8 +34,4 @@ export default defineConfig({
 			noExternal: ["smartypants"],
 		},
 	},
-	output: "hybrid",
-	adapter: vercel({
-		functionPerRoute: false,
-	}),
 })
