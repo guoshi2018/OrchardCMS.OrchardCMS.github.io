@@ -8,7 +8,7 @@ author:
   name: "Antoine Griffard"
   avatar: "https://avatars.githubusercontent.com/u/703248?v=4"
 categories:
-  - "other"
+  - "landing-page"
 repoUrl: "https://github.com/agriffard/TheBootstrapTheme"
 demoUrl: "https://github.com/agriffard/TheBootstrapTheme"
 stars: 1
